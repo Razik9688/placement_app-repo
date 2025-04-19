@@ -30,7 +30,7 @@ It’s built for **placement coordinators and mentors** to make the placement pr
 
 ---
 
-## 🛠️ Technologies Used (Don’t Worry If You’re New!)
+## 🛠️ Technologies Used 
 
 | Tool/Tech     | Why We Use It |
 |---------------|----------------|
@@ -65,6 +65,7 @@ It’s built for **placement coordinators and mentors** to make the placement pr
 
 ```bash
 placement_app/
-├── placement_app.py        # Main app (Streamlit file)
+├── env          # Need to create virtual environment (run this cmd in terminal :python -m venv env)(make it activate:env\Scripts\Activate.ps1)
 ├── data_insertion.py       # Script to insert fake data into MySQL
+└── placement_app.py        # Main app (Streamlit file)
 
